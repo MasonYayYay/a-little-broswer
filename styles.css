@@ -1,0 +1,33 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    background-color: #333;
+    color: white;
+}
+
+.tab-button, .back-button, .forward-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.back-button, .forward-button {
+    background-color: gray;
+    color: black;
+}
+
+#address-bar {
+    width: calc(100% - 300px);
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#content-placeholder {
+    height: calc(100vh - 60px); /* Adjust based on navbar height */
+}
